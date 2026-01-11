@@ -21,7 +21,7 @@ COPY templates/ templates/
 
 # Copy the trained model from the hierarchical clustering directory
 # Note: This assumes the model file is in the correct location
-COPY ../Hierarchical\ Clustering/Python/hierarchical_clustering_model.pkl /app/hierarchical_clustering_model.pkl
+COPY ../Python/hierarchical_clustering_model.pkl /app/hierarchical_clustering_model.pkl
 
 # Expose port 5000
 EXPOSE 5000
